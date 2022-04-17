@@ -12,7 +12,7 @@
 .logo {
   width: 228px;
   height: 32px;
-  border: solid 2px red;
+  /* border: solid 1px red; */
 }
 
 .logo_place_header {
@@ -30,7 +30,7 @@
   /* выше установили ограничения для секции */
   background-color: #f2f2f2;
   display: flex;
-  border: solid 2px red;
+  position: relative;
 }
 
 .header__title {
@@ -42,7 +42,6 @@
   font-size: 102px;
   font-weight: 700;
   /* для полужирных начертаний подразумевается толщина 700 */
-  border: solid 2px red;
 }
 
 .header__subtitle {
@@ -55,13 +54,11 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  border: solid 2px red;
 }
 
 .header__link {
   color: #2f80ed;
   text-decoration: none;
-  border: solid 2px red;
 }
 
 .header__main-illustration {
@@ -71,7 +68,6 @@
   bottom: 0;
   right: 0;
   z-index: 1;
-  border: solid 2px red;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -87,13 +83,11 @@
 .description {
   display: flex;
   justify-content: center;
-  border: solid 2px red;
 }
 
 .two-columns {
   width: 80%;
-  margin: 100px 0;
-  border: solid 2px red;
+  margin: 100px 0 0 0;
   display: flex;
   justify-content: space-between;
 }
@@ -106,13 +100,11 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
-  border: solid 2px red;
 }
 
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-  border: solid 2px red;
 }
 
 .two-columns__paragraph {
@@ -120,7 +112,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  border: solid 2px red;
 }
 
 .two-columns__paragraph:last-of-type {
@@ -133,6 +124,57 @@
   font-weight: 700;
 }
 
+.digits {
+}
+
+.section-title {
+  width: 60%;
+  text-align: center;
+  margin: 100px auto 0 auto;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.section-subtitle {
+  width: 60%;
+  text-align: center;
+  margin: 20px auto 0 auto;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.table_theme_light {
+  margin: 0 auto 100px auto;
+}
+
+.table__cell {
+  width: 250px;
+  margin: 60px 0 0 0;
+}
+
+.table__heading {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.table__text {
+  margin: 20px 0 0 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -142,9 +184,8 @@
 }
 
 .content {
-  border: solid 2px red;
+
 }
 
 .footer {
-  border: solid 2px red;
 }
