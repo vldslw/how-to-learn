@@ -9,14 +9,17 @@
 </head>
 <body>
   <div class="page">
+    <!--Шапка сайта-->
     <header class="header">
       <div class="logo logo_place_header"></div>
       <h1 class="header__title">Научиться учиться</h1>
-      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a class="header__link" href="">Узнать →</a></p>
+      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a class="header__link" href="#">Узнать →</a></p>
       <img class="header__main-illustration" src="images/header-image.png" alt="Опять двойка">
       <div class="header__square-pic"></div>
     </header>
+    <!--Основное содержание страницы-->
     <main class="content">
+      <!--Секция описания-->
       <section class="description">
         <div class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
@@ -27,6 +30,7 @@
           </div>
         </div>
       </section>
+      <!--Секция Цифры и факты-->
       <section class="digits">
         <h2 class="section-title section-title_theme_light">Цифры и факты</h2>
         <p class="section-subtitle section-subtitle_theme_light">Про учёбу и мозг</p>
@@ -41,12 +45,14 @@
           <div class="table__cell table__cell_theme_light"><h3 class="table__heading table__heading_theme_light">1889 год</h3><p class="table__text table__text_theme_light">Открытие условного рефлекса</p></div>
         </div>
       </section>
+      <!--Секция Фейнман-->
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
         <a class="feynman__link" href="#">Подробнее →</a>
         <img class="feynman__image" src="images/feynman.png" alt="Фейнман">
       </section>
+      <!--Секция Кауфман-->
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
@@ -65,7 +71,31 @@
         <div class="kaufman__triangle"></div>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <!-- Подвал сайта-->
+    <footer class="footer">
+      <div class="footer__columns">
+        <div class="footer__column_content_copyright">
+          <div class="logo logo_place_footer"></div>
+          <p class="footer__author"> &copy; Владислав Павлов</p>
+        </div>
+        <div class="footer__column_content_info">
+          <h3 class="footer_column-heading">О Практикуме</h3>
+          <ul class="footer_column-links">
+            <li><a class="footer_column-link" href="#">Главная</a></li>
+            <li><a class="footer_column-link" href="#">Концепция</a></li>
+            <li><a class="footer_column-link" href="#">Наставники</a></li>
+          </ul>
+        </div>
+        <div class="footer__column_content_social">
+          <h3 class="footer_column-heading">Соцсети</h3>
+          <ul class="footer_column-links">
+            <li><a class="footer_column-link" href="#"><img class="footer_social-icon" src="images/facebook_color_white.svg">Facebook</a></li>
+            <li><a class="footer_column-link" href="#"><img class="footer_social-icon" src="images/vk_color_white.svg">ВКонтакте</a></li>
+            <li><a class="footer_column-link" href="#"><img class="footer_social-icon" src="images/instagram_color_white.svg">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
