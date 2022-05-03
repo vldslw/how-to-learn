@@ -1,5 +1,5 @@
 .khan__buy-link {
-  height: 42px;
+  max-height: 42px;
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;

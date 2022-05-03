@@ -1,5 +1,5 @@
 .khan__author {
-  width: 100%;
+  min-width: 100%;
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
